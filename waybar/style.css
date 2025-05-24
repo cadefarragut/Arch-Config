@@ -2,27 +2,27 @@
 
 window#waybar {
     font-family: "JetBrains Mono NerdFont";
-    background-color: rgba(0, 0, 0, 0.);
-    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    background-color: rgba(46, 52, 64, 255);
+    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
     color: #ffffff;
     transition-property: background-color;
-    transition-duration: .5s;*/
+    transition-duration: .5s;
     font-size: 0.8rem;
     border-radius: 0.5rem;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
+/*window#waybar.hidden {
+    opacity: 1;
 }
 
-/*
 window#waybar.empty {
     background-color: transparent;
 }
+*/
 window#waybar.solo {
     background-color: #FFFFFF;
 }
-*/
+
 
 window#waybar.termite {
     background-color: #3F3F3F;
